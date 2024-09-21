@@ -108,18 +108,15 @@ body{
     gap: 80px;
 }
 
-@media (max-width: 1200px) {
-    .cabecalho{
-         padding: 10%;  
-    }
-    .cabecalho__menu{
-        justify-content: center;
-    }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao__conteudo{
-        width: auto;
-    }
+.apresentacao__conteudo__subtitulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.apresentacao__icones{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    gap: 10px;
 }
